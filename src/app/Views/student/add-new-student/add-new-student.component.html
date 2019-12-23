@@ -1,1 +1,10 @@
-<p>add-new-student works!</p>
+<p>add-new-student</p>
+<mat-form-field >
+    <input [(ngModel)]="name" matInput placeholder="Name">
+</mat-form-field>
+<br>
+<mat-form-field >
+    <input [(ngModel)]="age" matInput placeholder="Age">
+</mat-form-field>
+<br>
+<button (click)="getStudent()" mat-raised-button color="primary">ADD</button>
